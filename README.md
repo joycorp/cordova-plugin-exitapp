@@ -25,7 +25,7 @@ This plugin is meant to work with Cordova 3.5.0+.
 2. Install this plugin using PhoneGap/Cordova cli:
 
         cordova plugin add https://github.com/joycorp/cordova-plugin-exitapp.git
-        cordova plugin add cordova-plugin-exitapp
+        cordova plugin add cordova-plugin-exitapp2
 
 ## Usage
 
