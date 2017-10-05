@@ -1,6 +1,7 @@
 # ExitApp PhoneGap/Cordova Plugin
 this plugin from 
 ios - https://github.com/FRD49/iOS-ExitApp
+
 android, wp - https://github.com/gaqzi/cordova-plugin-exitapp
 
 changed support cordova 7.0+ & publish npm list
