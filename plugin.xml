@@ -27,10 +27,10 @@
   <platform name="android">
     <config-file target="config.xml" parent="/*">
       <feature name="ExitApp">
-        <param name="android-package" value="kr.co.joycorp.cordova.exitapp" />
+        <param name="android-package" value="kr.co.joycorp.cordova.exitapp.ExitApp" />
       </feature>
     </config-file>
-    <source-file src="src/android/ExitApp.java" target-dir="src/cordova/custom/plugins/exitapp" />
+    <source-file src="src/android/ExitApp.java" target-dir="src/kr/co/joycorp/cordova/exitapp" />
   </platform>
 
   <!-- ios -->
