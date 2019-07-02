@@ -35,9 +35,6 @@
 
   <!-- ios -->
   <platform name="ios">
-    <js-module src="www/ExitApp.js" name="ExitApp">
-       <clobbers target="navigator.app" />
-    </js-module>
     <config-file target="config.xml" parent="/*">
        <feature name="ExitApp">
           <param name="ios-package" value="ExitApp" />
