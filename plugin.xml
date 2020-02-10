@@ -27,17 +27,14 @@
   <platform name="android">
     <config-file target="config.xml" parent="/*">
       <feature name="ExitApp">
-        <param name="android-package" value="kr.co.joycorp.cordova.exitapp" />
+        <param name="android-package" value="kr.co.joycorp.cordova.exitapp.ExitApp" />
       </feature>
     </config-file>
-    <source-file src="src/android/ExitApp.java" target-dir="src/cordova/custom/plugins/exitapp" />
+    <source-file src="src/android/ExitApp.java" target-dir="src/kr/co/joycorp/cordova/exitapp" />
   </platform>
 
   <!-- ios -->
   <platform name="ios">
-    <js-module src="www/ExitApp.js" name="ExitApp">
-       <clobbers target="navigator.app" />
-    </js-module>
     <config-file target="config.xml" parent="/*">
        <feature name="ExitApp">
           <param name="ios-package" value="ExitApp" />
